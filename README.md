@@ -1,1 +1,2 @@
-# GPrologSudoku
+# This program provides a sudoku solving tool. It is based off of the following github repo https://gist.github.com/luan/1995582 by Luan. His program implemented a simple Sudoku Solver which made limited use of the built-in Finite Domain Library in GProlog. Because of this his program ran slow. We studied the Finite Domain Library and examples of its applications in SWI Prolog Sudoku implementation in order to improve the efficiency of Luan's algorithm. A major addition was the introduction of nonet checking which is capable of comparing blocks 9 pieces on the board in order to quickly meet constraints. This brings down execution time significantly!
+# Written by Christian Alfaro, Matthew Byler, Adin Dorf, and Ethan Gilchrist
